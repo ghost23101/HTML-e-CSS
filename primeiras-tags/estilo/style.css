@@ -100,3 +100,11 @@ footer > p{
     text-align: center;
     
 }
+
+@media(min-width: 320px) and (max-width: 450px){
+    figure .imagem-conteudo{
+        border-radius: 20px 60px;
+        width: 80%;
+    }
+    
+}
