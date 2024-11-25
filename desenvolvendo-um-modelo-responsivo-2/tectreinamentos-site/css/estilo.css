@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root{
+    --preto: rgba(0, 0, 0, 0.789);
+    --branco: rgb(255, 255, 255);
+    --cinza: 	rgb(169, 169, 169);
+}
+
 *{
     margin: 0;
     border: 0;
@@ -13,8 +19,8 @@ html{
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.789);
-    color: white;
+    background-color: var(--preto);
+    color: var(--branco);
     padding: 30px;
 }
 
