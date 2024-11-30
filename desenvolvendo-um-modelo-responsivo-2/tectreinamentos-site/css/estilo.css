@@ -28,8 +28,8 @@ main{
     margin: auto;
     width: 85%;
     box-shadow: 1px 1px 10px 0px var(--preto);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 
@@ -70,4 +70,9 @@ h1, h2, h3, h4, h5, h6{
 p{
     text-align: justify;
     margin: 0px 40px 30px 40px;
+}
+
+/*Configurações de Imagens*/
+img{
+    width: 100%;
 }
