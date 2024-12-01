@@ -67,9 +67,13 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 0,5%; padding-bottom: 0,5%;
 }
 
+/*Configrações dos Parágrafos*/
+
 p{
     text-align: justify;
     margin: 0px 40px 20px 40px;
+    padding-top: 0,75%;
+    padding-bottom: 0,75%;
 }
 
 /*Configurações de Imagens*/
