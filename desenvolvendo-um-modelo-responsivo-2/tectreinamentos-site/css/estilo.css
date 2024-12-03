@@ -18,10 +18,12 @@ html{
     font-size: 1em;
 }
 
+/*Configurações do corpo*/
 body{
     background-color: var(--cinza);
 }
 
+/*Configurações do Cabeçalho*/
 header{
     background-color: var(--preto);
     color: var(--branco);
@@ -32,9 +34,10 @@ header{
 
 /*Divs*/
 .separador{
-    margin-top: 10%;
+    margin-top: 11%;
 }
 
+/*Configuraçoes dp conteúdo principal*/
 main{
     background-color: var(--branco);
     padding: 1%;
@@ -88,7 +91,7 @@ img{
 }
 
 /*Configurações de Estilo para Dispositivos Móveis*/
-@media(min-width: 360px) and (max-width: 800px){
+@media(min-width: 360px) and (max-width: 1024px){
 
     :root{
         --preto: rgba(0, 0, 0, 0.956);
@@ -108,10 +111,12 @@ img{
         font-size: 1em;
     }
 
+    /*Configurações do corpo*/
     body{
         background-color: var(--cinza);
     }
 
+    /*Configurações do Cabeçalho*/
     header{
         background-color: var(--preto);
         color: var(--branco);
@@ -126,6 +131,7 @@ img{
         margin-top: 40%;
     }
 
+    /*Configuraçoes dp conteúdo principal*/
     main{
         background-color: var(--branco);
         padding: 1%;
