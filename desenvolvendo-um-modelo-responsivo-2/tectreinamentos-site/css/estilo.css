@@ -4,6 +4,9 @@
     --preto: rgba(0, 0, 0, 0.956);
     --branco: rgb(255, 255, 255);
     --cinza: rgba(192, 192, 192, 0.427);
+    --verde: rgba(6, 184, 6, 1.0);
+    --verd2: rgba(82, 219, 82, 1.0);
+    
 }
 
 *{
@@ -101,6 +104,24 @@ p{
 /*Configurações de Imagens*/
 img{
     width: 100%;
+}
+
+/*Configurações para Botão de  Ação*/
+button{
+    padding: 8px 20px;
+    background-color: var(--verde);
+    color: var(--branco);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    display: block;
+    margin: auto;
+    transition: 300ms ease;
+}
+
+button:hover{
+    background: var(--verd2);
+    color: var(--preto);
 }
 
 /*Configurações da Grade de Conteúdo - Grids*/
