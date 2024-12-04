@@ -113,7 +113,13 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     max-width: 1024px;
     margin: auto;
-    grid-gap: 1px;
+    grid-gap: 2px;
+}
+
+.grid div{
+    background-color: var(--branco);
+    text-align: center;
+    padding: 2px;
 }
 
 /*Configurações de Estilo para Dispositivos Móveis*/
