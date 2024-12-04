@@ -122,6 +122,22 @@ img{
     padding: 2px;
 }
 
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer > p{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
 /*Configurações de Estilo para Dispositivos Móveis*/
 @media(min-width: 360px) and (max-width: 1024px){
 
