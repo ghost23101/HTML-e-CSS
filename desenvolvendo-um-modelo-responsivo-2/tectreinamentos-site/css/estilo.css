@@ -103,6 +103,16 @@ img{
     width: 100%;
 }
 
+/*Configurações da Grade de Conteúdo - Grids*/
+#grid-conteudo{
+    background-color: var(--cinza);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 /*Configurações de Estilo para Dispositivos Móveis*/
 @media(min-width: 360px) and (max-width: 1024px){
 
