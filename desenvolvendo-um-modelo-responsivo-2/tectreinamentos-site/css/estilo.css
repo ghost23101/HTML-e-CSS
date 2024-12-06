@@ -35,9 +35,15 @@ header{
     width: 100%;
 }
 
+nav{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
 /*Divs*/
 .separador{
-    margin-top: 11%;
+    margin-top: 15%;
 }
 
 /*Configuraçoes dp conteúdo principal*/
@@ -197,7 +203,7 @@ footer > p{
 
     /*Divs*/
     .separador{
-        margin-top: 40%;
+        margin-top: 55%;
     }
     
     /*Configuraçoes dp conteúdo principal*/
