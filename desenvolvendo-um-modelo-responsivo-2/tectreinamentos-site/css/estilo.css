@@ -39,6 +39,18 @@ nav{
     display: block;
     text-align: center;
     padding: 5px;
+    font-size: 1.3rem;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bolder;
+}
+
+a:hover{
+    color: yellow;
 }
 
 /*Divs*/
@@ -203,7 +215,7 @@ footer > p{
 
     /*Divs*/
     .separador{
-        margin-top: 55%;
+        margin-top: 48%;
     }
     
     /*Configuraçoes dp conteúdo principal*/
@@ -218,7 +230,7 @@ footer > p{
     }
 
     .separador-conteudo{
-        margin-top: 1%;
+        margin-top: 0,5%;
     }
 
     aside{
