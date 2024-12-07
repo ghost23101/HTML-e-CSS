@@ -6,6 +6,13 @@
     --cinza: rgba(192, 192, 192, 0.427);
     --verde: rgba(6, 184, 6, 1.0);
     --verd2: rgba(82, 219, 82, 1.0);
+
+    --corprojeto1: rgb(172, 10, 10);
+    --corprojeto2: rgb(224, 16, 16);
+    --corprojeto3: rgb(151, 42, 42);
+    --corprojeto4: rgb(170, 170,21);
+    --corprojeto5: rgb(247, 247, 7);
+    --corprojeto6: rgb(255, 136, 0);
 }
 
 *{
@@ -27,7 +34,7 @@ body{
 
 /*Configurações do Cabeçalho*/
 header{
-    background-color: var(--preto);
+    background-color: var(--corprojeto1);
     color: var(--branco);
     padding: 30px;
     position: fixed;
@@ -123,6 +130,13 @@ img{
     width: 100%;
 }
 
+img#topo{
+    width: 400px;
+    height: 130px;
+    display: block;
+    margin: auto;
+}
+
 /*Configurações para Botão de  Ação*/
 button{
     padding: 8px 20px;
@@ -177,12 +191,19 @@ footer > p{
 }
 
 /*Configurações de Estilo para Dispositivos Móveis*/
-@media(min-width: 360px) and (max-width: 1024px){
+@media(min-width: 320px) and (max-width: 1024px){
 
     :root{
         --preto: rgba(0, 0, 0, 0.956);
         --branco: rgb(255, 255, 255);
         --cinza: rgba(192, 192, 192, 0.427);
+
+        --corprojeto1: rgb(172, 10, 10);
+        --corprojeto2: rgb(224, 16, 16);
+        --corprojeto3: rgb(151, 42, 42);
+        --corprojeto4: rgb(170, 170,21);
+        --corprojeto5: rgb(247, 247, 7);
+        --corprojeto6: rgb(255, 136, 0);
     }
 
     *{
@@ -204,7 +225,7 @@ footer > p{
 
     /*Configurações do Cabeçalho*/
     header{
-        background-color: var(--preto);
+        background-color: var(--corprojeto1);
         color: var(--branco);
         text-align: center;
         padding: 30px 0px;
@@ -284,5 +305,12 @@ footer > p{
     /*Configurações de Imagens*/
     img{
         width: 100%;
+    }
+
+    img#topo{
+        width: 340px;
+        height: 100px;
+        display: block;
+        margin: auto;
     }
 }
