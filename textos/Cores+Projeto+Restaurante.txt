@@ -1,0 +1,6 @@
+--corprojeto1: rgb(172, 10, 10);
+--corprojeto2: rgb(224, 16, 16);
+--corprojeto3: rgb(151, 42, 42);
+--corprojeto4: rgb(170, 170,21);
+--corprojeto5: rgb(247, 247, 7);
+--corprojeto6: rgb(255, 136, 0);
