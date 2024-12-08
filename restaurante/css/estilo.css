@@ -36,9 +36,9 @@ body{
 header{
     background-color: var(--corprojeto1);
     color: var(--branco);
-    padding: 30px;
     position: fixed;
     width: 100%;
+    margin: auto;
 }
 
 nav{
@@ -59,9 +59,13 @@ a:hover{
     color: yellow;
 }
 
-/*Divs*/
+/*Configurações de separadores com Divs*/
 .separador{
-    margin-top: 15%;
+    margin-top: 11%;
+}
+
+.separador-conteudo{
+    margin-top: 1%;
 }
 
 /*Configuraçoes dp conteúdo principal*/
@@ -75,9 +79,6 @@ main{
     
 }
 
-.separador-conteudo{
-    margin-top: 1%;
-}
 
 aside{
     background-color: var(--branco);
@@ -135,6 +136,7 @@ img#topo{
     height: 130px;
     display: block;
     margin: auto;
+    padding: 10px;
 }
 
 /*Configurações para Botão de  Ação*/
@@ -228,14 +230,21 @@ footer > p{
         background-color: var(--corprojeto1);
         color: var(--branco);
         text-align: center;
-        padding: 30px 0px;
         position: fixed;
         width: 100%;
     }
 
+    nav{
+        display: block;
+        text-align: center;
+        padding: 5px;
+        font-size: 1.3rem;
+        word-spacing: 10px;
+    }
+
     /*Divs*/
     .separador{
-        margin-top: 48%;
+        margin-top: 33%;
     }
     
     /*Configuraçoes dp conteúdo principal*/
@@ -250,7 +259,7 @@ footer > p{
     }
 
     .separador-conteudo{
-        margin-top: 0,5%;
+        margin-top: 1%;
     }
 
     aside{
@@ -308,9 +317,10 @@ footer > p{
     }
 
     img#topo{
-        width: 340px;
+        width: 300px;
         height: 100px;
         display: block;
         margin: auto;
+        padding: 10px;
     }
 }
