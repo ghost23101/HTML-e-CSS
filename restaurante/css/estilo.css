@@ -89,6 +89,17 @@ aside{
     border-radius: 20px;
 }
 
+/*Configurações de Links de Produtos*/
+.menu{
+    color: var(--branco);
+    background-color: var(--corprojeto1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--corprojeto6);
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /*Configurações de Títulos Headlines*/
 h1{
     text-align: center;
