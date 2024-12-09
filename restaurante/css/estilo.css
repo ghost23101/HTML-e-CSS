@@ -172,7 +172,7 @@ button:hover{
 }
 
 /*Configurações da Grade de Conteúdo - Grids*/
-#grid-conteudo{
+.grid-conteudo{
     background-color: var(--cinza);
 }
 
