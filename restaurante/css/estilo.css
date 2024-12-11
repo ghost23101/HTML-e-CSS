@@ -70,6 +70,10 @@ a:hover{
     margin-top: 1%;
 }
 
+.separador-conteudo-opcoes{
+    margin-top: 12%;
+}
+
 /*Configuraçoes dp conteúdo principal*/
 main{
     background-color: var(--branco);
@@ -290,6 +294,10 @@ footer > p{
 
     .separador-conteudo{
         margin-top: 1%;
+    }
+
+    .separador-conteudo-opcoes{
+        margin-top: 36%;
     }
 
     aside{
