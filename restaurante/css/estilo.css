@@ -115,7 +115,7 @@ h1{
 
 h2{
     margin: 0px 40px 30px 40px;
-    font-family: "Playwrite DE Grund", cursive;
+    font-style: italic;
     font-size: 2em;
     color: var(--corprojeto1);
     text-align: center;
@@ -314,6 +314,7 @@ footer > p{
         margin: 0px 40px 30px 40px;
         text-align: left;
         font-size: 1.5em;
+        font-style: italic;
     }
 
     h4{
@@ -371,5 +372,6 @@ footer > p{
         color: var(--branco);
         text-align: center;
         font-weight: bold;
+        padding-top: 1%;
     }
 }
