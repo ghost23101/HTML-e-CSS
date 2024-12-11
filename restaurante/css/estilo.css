@@ -36,7 +36,7 @@ body{
 
 /*Configurações do Cabeçalho*/
 header{
-    background-color: var(--corprojeto1);
+    background: linear-gradient(to left, var(--corprojeto6), var(--corprojeto1));
     color: var(--branco);
     position: fixed;
     width: 100%;
@@ -203,7 +203,7 @@ button:hover{
 }
 
 footer{
-    background-color: var(--corprojeto1);
+    background: linear-gradient(to right, var(--corprojeto6), var(--corprojeto1));
     color: var(--branco);
     padding: 5px;
     text-align: center;
