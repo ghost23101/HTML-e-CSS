@@ -361,6 +361,7 @@ footer > p{
         color: var(--branco);
         text-align: center;
         font-weight: bold;
+        padding-top: 5%;
     }
     
     footer > h3{
