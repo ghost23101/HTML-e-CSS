@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+:root{
+    --preto: rgba(0, 0, 0, 0.956);
+    --branco: rgb(255, 255, 255);
+    --cinza: rgba(192, 192, 192, 0.427);
+    --verde: rgba(6, 184, 6, 1.0);
+    --verd2: rgba(82, 219, 82, 1.0);
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*Configurações Gerais do Site*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/*Configurações do corpo*/
+body{
+    background-color: var(--cinza);
+}
+
+/*Configurações do Cabeçalho*/
+header{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.3rem;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bolder;
+}
+
+a:hover{
+    color: yellow;
+}
+
+/*Divs*/
+.separador{
+    margin-top: 15%;
+}
+
+/*Configuraçoes dp conteúdo principal*/
+main{
+    background-color: var(--branco);
+    padding: 1%;
+    margin: auto;
+    width: 85%;
+    box-shadow: 1px 1px 10px 0px var(--preto);
+    border-radius: 20px;
+    
+}
+
+.separador-conteudo{
+    margin-top: 1%;
+}
+
+aside{
+    background-color: var(--branco);
+    padding: 1%;
+    margin: auto;
+    width: 85%;
+    box-shadow: 1px 1px 10px 0px var(--preto);
+    border-radius: 20px;
+}
+
+/*Configurações de Títulos Headlines*/
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2em;
+}
+
+h2{
+    margin: 0px 40px 30px 40px;
+    font-size: 1.5em;
+}
+
+h3{
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h4{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding-top: 0,5%; padding-bottom: 0,5%;
+}
+
+/*Configrações dos Parágrafos*/
+
+p{
+    text-align: justify;
+    margin: 0px 40px 20px 40px;
+    padding-top: 0,75%;
+    padding-bottom: 0,75%;
+}
+
+/*Configurações de Imagens*/
+img{
+    width: 100%;
+}
+
+/*Configurações para Botão de  Ação*/
+button{
+    padding: 8px 20px;
+    background-color: var(--verde);
+    color: var(--branco);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    display: block;
+    margin: auto;
+    transition: 300ms ease;
+}
+
+button:hover{
+    background: var(--verd2);
+    color: var(--preto);
+}
+
+/*Configurações da Grade de Conteúdo - Grids*/
+#grid-conteudo{
+    background-color: var(--cinza);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1024px;
+    margin: auto;
+    gap: 2px;
+}
+
+.grid div{
+    background-color: var(--branco);
+    text-align: center;
+    padding: 2px;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer > p{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Configurações de Estilo para Dispositivos Móveis*/
+@media(min-width: 360px) and (max-width: 1024px){
+
+    :root{
+        --preto: rgba(0, 0, 0, 0.956);
+        --branco: rgb(255, 255, 255);
+        --cinza: rgba(192, 192, 192, 0.427);
+    }
+
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    /*Configurações Gerais do Site*/
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+
+    /*Configurações do corpo*/
+    body{
+        background-color: var(--cinza);
+    }
+
+    /*Configurações do Cabeçalho*/
+    header{
+        background-color: var(--preto);
+        color: var(--branco);
+        text-align: center;
+        padding: 30px 0px;
+        position: fixed;
+        width: 100%;
+    }
+
+    /*Divs*/
+    .separador{
+        margin-top: 48%;
+    }
+    
+    /*Configuraçoes dp conteúdo principal*/
+    main{
+        background-color: var(--branco);
+        padding: 1%;
+        margin: auto;
+        width: 85%;
+        box-shadow: 1px 1px 10px 0px var(--preto);
+        border-radius: 20px;
+        
+    }
+
+    .separador-conteudo{
+        margin-top: 0,5%;
+    }
+
+    aside{
+        background-color: var(--branco);
+        padding: 1%;
+        margin: auto;
+        width: 85%;
+        box-shadow: 1px 1px 10px 0px var(--preto);
+        border-radius: 20px;
+    }
+
+    /*Configurações de Títulos Headlines*/
+    h1{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 2em;
+        padding: 0px 30px;
+    }
+
+    h2{
+        margin: 0px 40px 30px 40px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    h3{
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+        text-transform: uppercase;
+        font-size: 2em;
+    }
+
+    h4{
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
+        font-size: 1em;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        padding-top: 0,5%; padding-bottom: 0,5%;
+    }
+
+    /*Configrações dos Parágrafos*/
+
+    p{
+        text-align: justify;
+        /*margin: 0px 40px 20px 40px;*/
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    /*Configurações de Imagens*/
+    img{
+        width: 100%;
+    }
+}
