@@ -70,6 +70,10 @@ a{
     font-weight: bolder;
 }
 
+div#whats > a > p{
+    color: var(--preto);
+}
+
 a:hover{
     color: yellow;
 }
