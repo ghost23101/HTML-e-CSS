@@ -6,6 +6,11 @@
     --cinza: rgba(192, 192, 192, 0.427);
     --verde: rgba(6, 184, 6, 1.0);
     --verd2: rgba(82, 219, 82, 1.0);
+
+    --violt: rgb(238,130,238);
+    --orchd: rgb(218,112,214);
+    --viodk: rgb(148,0,211);
+    --indig: rgb(75,0,130);
 }
 
 *{
@@ -27,7 +32,7 @@ body{
 
 /*Configurações do Cabeçalho*/
 header{
-    background-color: var(--preto);
+    background-color: var(--violt);
     color: var(--branco);
     padding: 30px;
     position: fixed;
@@ -161,7 +166,7 @@ button:hover{
 }
 
 footer{
-    background-color: var(--preto);
+    background-color: var(--violt);
     color: var(--branco);
     padding: 30px;
     text-align: center;
@@ -169,9 +174,8 @@ footer{
 }
 
 footer > p{
-    background-color: var(--preto);
     color: var(--branco);
-    padding: 30px;
+    padding: 5px;
     text-align: center;
     font-weight: bold;
 }
