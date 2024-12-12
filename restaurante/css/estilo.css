@@ -44,6 +44,18 @@ header{
     margin: auto;
 }
 
+/*WhatsApp*/
+#whats{
+    width: 100px;
+    height: 50px;
+    right: 0;
+    bottom: 1em;
+    position: fixed;
+    text-align: center;
+    margin: 8em;
+    margin-right: 30px;
+}
+
 nav{
     display: block;
     text-align: center;
@@ -267,6 +279,17 @@ footer > p{
         text-align: center;
         position: fixed;
         width: 100%;
+    }
+
+    #whats{
+        width: 100px;
+        height: 50px;
+        right: 0;
+        bottom: 1em;
+        position: fixed;
+        text-align: center;
+        margin: 8em;
+        margin-right: 15px;
     }
 
     nav{
