@@ -154,15 +154,16 @@ button:hover{
 
 /*Configurações da Grade de Conteúdo - Grids*/
 .grid-conteudo{
-    background-color: var(--cinza);
+    background-color: var(--branco);
+    padding-top: 160px;
 }
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     max-width: 1024px;
     margin: auto;
-    gap: 2px;
+    gap: 10px;
 }
 
 .grid div{
