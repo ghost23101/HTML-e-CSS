@@ -179,7 +179,7 @@ button:hover{
     background-color: var(--branco);
 }
 
-.grid{
+.grid-equipe-sb{
    display: flex; /*Alterando o tipo de display para flex*/
    justify-content: center; /*Centralizando a linha*/
    align-items: center; /*Centralizando verticalmente*/
