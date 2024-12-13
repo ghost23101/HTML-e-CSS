@@ -75,6 +75,10 @@ main{
     
 }
 
+article ul{
+    padding-left: 5%;
+}
+
 .separador-conteudo{
     margin-top: 1%;
 }
