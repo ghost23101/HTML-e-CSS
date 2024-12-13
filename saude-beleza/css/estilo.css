@@ -43,6 +43,10 @@ header{
     width: 100%;
 }
 
+header > h4{
+    text-shadow: 2px 2px 4px var(--preto);
+}
+
 nav{
     display: block;
     text-align: center;
@@ -112,7 +116,6 @@ h3{
 }
 
 h4{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.063);
     text-shadow: 2px 2px 6px var(--preto);
     font-family: "Petit Formal Script", cursive;
     font-size: 1.2em;
@@ -199,16 +202,23 @@ button:hover{
 footer{
     background-color: var(--violt);
     color: var(--branco);
-    padding: 30px;
-    text-align: center;
+    padding: 1%;
+    text-align: left;
     font-weight: bold;
+    text-shadow: 1px 1px 1px var(--preto);
+}
+
+footer > h4{
+    text-shadow: 2px 2px 4px var(--preto);
+
 }
 
 footer > p{
     color: var(--branco);
-    padding: 5px;
-    text-align: center;
+    padding: 1%;
+    text-align: left;
     font-weight: bold;
+    text-shadow: 1px 1px 4px var(--preto);
 }
 
 /*Configurações de Estilo para Dispositivos Móveis*/
