@@ -82,7 +82,7 @@ a{
 }
 
 a:hover{
-    color: yellow;
+    background-color: var(--viodk);
 }
 
 /*Divs*/
@@ -204,6 +204,16 @@ button:hover{
     background-color: var(--branco);
     text-align: center;
     padding: 2px;
+}
+
+.btn{
+    display: block;
+    width: 160px;
+    background-color: var(--indig);
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: auto;
 }
 
 /*Trabalhando com Flexbox*/
