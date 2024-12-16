@@ -106,7 +106,7 @@ article div.video{
     text-align: center;
     margin: auto;
     padding: 1%;
-    background-color: var(--violt);
+    background-color: rgba(238, 130, 238, 0.15);
     border-radius: 10px;
 }
 
@@ -319,7 +319,7 @@ footer > p{
     article div.video{
         position: relative;
         padding-bottom: 50%;
-        background-color: var(--violt);
+        background-color: rgba(238, 130, 238, 0.15);
         border-radius: 10px;
     }
 
