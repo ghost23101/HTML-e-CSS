@@ -210,6 +210,7 @@ button:hover{
     display: block;
     width: 160px;
     background-color: var(--indig);
+    text-align: center;
     padding: 10px 25px 10px 25px;
     border-radius: 20px;
     font-size: 1rem;
