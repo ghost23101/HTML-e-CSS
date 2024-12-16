@@ -67,6 +67,8 @@ nav{
     bottom: 1em;
     position: fixed;
     text-align: center;
+    text-shadow: 1px 1px 1px var(--branco);
+    color: var(--indig);
     margin: 8em;
     margin-right: 30px;
 }
@@ -128,6 +130,7 @@ aside{
 /*Configurações de Títulos Headlines*/
 h1{
     text-align: center;
+    color: var(--indig);
     margin-top: 3%;
     font-size: 2em;
 }
@@ -135,6 +138,7 @@ h1{
 h2{
     margin: 0px 40px 30px 40px;
     font-size: 1.5em;
+    color: var(--indig);
 }
 
 h3{
@@ -292,6 +296,8 @@ footer > p{
         bottom: 1em;
         position: fixed;
         text-align: center;
+        text-shadow: 1px 1px 1px var(--branco);
+        color: var(--indig);
         margin: 8em;
         margin-right: 15px;
         z-index: 1;
@@ -342,6 +348,7 @@ footer > p{
     /*Configurações de Títulos Headlines*/
     h1{
         text-align: center;
+        color: var(--indig);
         margin-top: 10%;
         margin-bottom: 10%;
         font-size: 2em;
@@ -351,6 +358,7 @@ footer > p{
     h2{
         margin: 0px 40px 30px 40px;
         text-align: center;
+        color: var(--indig);
         font-size: 1.5em;
     }
 
