@@ -170,6 +170,14 @@ p{
 /*Configurações de Imagens*/
 img{
     width: 100%;
+    padding-top: 2%;
+}
+
+.img-site{
+    width: 100%;
+    padding-top: 2%;
+    background: radial-gradient(var(--orchd), var(--branco), var(--branco));
+    border-radius: 100%;
 }
 
 /*Configurações para Botão de  Ação*/
