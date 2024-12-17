@@ -123,8 +123,6 @@ aside{
     padding: 1%;
     margin: auto;
     width: 85%;
-    box-shadow: 1px 1px 10px 0px var(--preto);
-    border-radius: 20px;
 }
 
 /*Configurações de Títulos Headlines*/
@@ -165,6 +163,12 @@ p{
     margin: 0px 40px 20px 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+p.especialistas{
+    text-align: center;
+    color: var(--indig);
+    font-weight: bold;
 }
 
 /*Configurações de Imagens*/
