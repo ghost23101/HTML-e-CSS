@@ -37,7 +37,7 @@ body{
 
 /*Configurações do Cabeçalho*/
 header{
-    background-color: var(--violt);
+    background: linear-gradient(to top, var(--orchd), var(--violt), var(--violt));
     color: var(--branco);
     text-align: center;
     padding: auto;
@@ -256,7 +256,7 @@ button:hover{
 }
 
 footer{
-    background-color: var(--violt);
+    background: linear-gradient(to top, var(--orchd), var(--violt), var(--violt));
     color: var(--branco);
     padding: 1%;
     padding-top: 30px;
@@ -290,7 +290,7 @@ footer > p{
 
     /*Configurações do Cabeçalho*/
     header{
-        background-color: var(--violt);
+        background: linear-gradient(to top, var(--orchd), var(--violt), var(--violt));
         color: var(--branco);
         text-align: center;
         padding: auto;
@@ -425,7 +425,7 @@ footer > p{
     }
 
     footer{
-        background-color: var(--violt);
+        background: linear-gradient(to top, var(--orchd), var(--violt), var(--violt));
         color: var(--branco);
         padding: 1%;
         padding-top: 30px;
