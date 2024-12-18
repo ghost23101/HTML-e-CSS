@@ -171,6 +171,14 @@ p.especialistas{
     font-weight: bold;
 }
 
+p#servicos{
+    text-align: center;
+    color: var(--indig);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
 /*Configurações de Imagens*/
 img{
     width: 100%;
